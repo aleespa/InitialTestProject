@@ -1,8 +1,13 @@
+import java.util.ArrayList;
+
 public class Main {
+
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++){
-            System.out.println(i);
-        }
+
+        ArrayList<String> TestArray = new ArrayList<>();
+        TestArray.add("Alejandro");
+        System.out.println(TestArray);
+
 
     }
 }
