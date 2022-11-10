@@ -1,11 +1,9 @@
-import Groups.Teams;
-
-import java.util.ArrayList;
+import Groups.CountryTeam;
 
 public class Main {
     public static void main(String[] args) {
 
-        Teams Mexico = new Teams("Mexico");
+        CountryTeam Mexico = new CountryTeam("Mexico", "MX");
         Mexico.PrintName();
     }
 }
